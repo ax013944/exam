@@ -1,0 +1,121 @@
+package edu.fju.exam;
+
+import java.util.Scanner;
+
+public class VendingMachine {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 15;
+		int c = 10;
+		int d = 18;
+		int e = 10;
+		int f = 20;
+		int g = 15;
+		int h = 18;
+		int cash = 0;
+		boolean powert = true;
+		System.out.println("現在餘額:" + cash + "元");
+		while (powert) {
+			Scanner sc = new Scanner(System.in);
+			String n = sc.next();
+			switch (n) {
+			case "1":
+				cash = cash + 1;
+				System.out.println("現在餘額:" + cash + "元");
+				break;
+			case "5":
+				cash = cash + 5;
+				System.out.println("現在餘額:" + cash + "元");
+				break;
+			case "10":
+				cash = cash + 10;
+				System.out.println("現在餘額:" + cash + "元");
+				break;
+			case "a":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "b":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "c":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "d":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "e":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "f":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "g":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "h":
+				if (cash >= a) {
+					cash = cash - a;
+					System.out.println("DON!");
+					System.out.println("現在餘額:" + cash + "元");
+				} else {
+					System.out.println("現在餘額:" + cash + "元");
+					System.out.println("BEEP!");
+				}
+				break;
+			case "0":
+				System.out.println("BEEP!");
+				powert= false;
+				break;
+			}
+		}
+	}
+}
