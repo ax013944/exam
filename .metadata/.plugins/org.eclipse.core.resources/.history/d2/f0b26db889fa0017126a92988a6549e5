@@ -1,0 +1,16 @@
+package edu.fju.exam;
+
+public class Employee {
+
+	public static void main(String[] args) {
+	int money;
+	String name;
+	
+	public employees(String name;int money) {
+	this.money = money;
+	this.name =name;
+	
+	}
+	}
+
+}

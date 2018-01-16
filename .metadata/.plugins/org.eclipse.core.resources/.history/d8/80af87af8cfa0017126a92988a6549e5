@@ -1,0 +1,16 @@
+package edu.fju.exam;
+
+public class Director extends Employee {
+	public Director(String name,int money){
+		super(name,money);
+
+	}
+	@Override
+	public void print() {
+		if(money==50000){System.out.println(name+"\t"+money+5000+"3000");	
+		}else{
+			System.out.println(name+"\t"+money+5000+"9000");
+		}
+		}
+	}	
+	
