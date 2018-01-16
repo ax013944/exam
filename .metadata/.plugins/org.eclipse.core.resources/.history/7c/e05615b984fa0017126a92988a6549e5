@@ -1,0 +1,13 @@
+package edu.fju.exam;
+
+public class niner {
+
+	public static void main(String[] args) {
+		for(int i=2;i<6;i++){
+			for(int a=1;a<6;a++){
+			System.out.print(i+"x"+a+"="+a*i);
+			}
+		}
+	}
+
+}
